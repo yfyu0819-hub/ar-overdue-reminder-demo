@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <text x="40" y="55" font-size="28" font-family="Arial, 'Microsoft YaHei', sans-serif" fill="#111827">应收台账截图（示例 2 - 模拟拍照轻微倾斜）</text>
+
+  <g transform="translate(60,110) rotate(-2)" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="22" fill="#111827">
+    <rect x="0" y="0" width="1080" height="250" fill="#ffffff" stroke="#111827" stroke-width="2"/>
+    <line x1="0" y1="55" x2="1080" y2="55" stroke="#111827" stroke-width="2"/>
+
+    <line x1="210" y1="0" x2="210" y2="250" stroke="#111827" stroke-width="2"/>
+    <line x1="440" y1="0" x2="440" y2="250" stroke="#111827" stroke-width="2"/>
+    <line x1="630" y1="0" x2="630" y2="250" stroke="#111827" stroke-width="2"/>
+    <line x1="810" y1="0" x2="810" y2="250" stroke="#111827" stroke-width="2"/>
+    <line x1="960" y1="0" x2="960" y2="250" stroke="#111827" stroke-width="2"/>
+
+    <text x="18" y="38">客户</text>
+    <text x="230" y="38">项目</text>
+    <text x="460" y="38">应收金额</text>
+    <text x="650" y="38">已收金额</text>
+    <text x="830" y="38">到期日</text>
+    <text x="980" y="38">负责人</text>
+
+    <line x1="0" y1="120" x2="1080" y2="120" stroke="#111827" stroke-width="1"/>
+    <text x="18" y="98">KSA EPC Partner</text>
+    <text x="230" y="98">模块化营地</text>
+    <text x="460" y="98">56000</text>
+    <text x="650" y="98">10000</text>
+    <text x="830" y="98">2026/05/18</text>
+    <text x="980" y="98">王五</text>
+
+    <line x1="0" y1="185" x2="1080" y2="185" stroke="#111827" stroke-width="1"/>
+    <text x="18" y="163">Peru Logistics</text>
+    <text x="230" y="163">集装箱改造</text>
+    <text x="460" y="163">99000</text>
+    <text x="650" y="163">0</text>
+    <text x="830" y="163">2026.05.01</text>
+    <text x="980" y="163">Nina</text>
+
+    <text x="18" y="228">EU Gov Project</text>
+    <text x="230" y="228">临建仓库</text>
+    <text x="460" y="228">150000</text>
+    <text x="650" y="228">75000</text>
+    <text x="830" y="228">2026年5月28日</text>
+    <text x="980" y="228">赵六</text>
+  </g>
+
+  <text x="40" y="395" font-size="14" font-family="Arial, 'Microsoft YaHei', sans-serif" fill="#6b7280">提示：这是 SVG 示意图，用于 OCR 演示。真实拍照会更不稳定，因此 Demo 的交付口径是“先识别草稿，再人工确认入库”。</text>
+</svg>

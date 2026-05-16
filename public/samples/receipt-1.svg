@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <rect x="60" y="40" width="780" height="440" fill="#ffffff" stroke="#111827" stroke-width="2"/>
+
+  <text x="100" y="90" font-size="30" font-family="Arial, 'Microsoft YaHei', sans-serif" fill="#111827">收据/文本截图（示例）</text>
+
+  <g font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="22" fill="#111827">
+    <text x="100" y="145">客户：ABC工程有限公司</text>
+    <text x="100" y="185">项目：港口改造</text>
+    <text x="100" y="225">应收金额：250000</text>
+    <text x="100" y="265">已收金额：50000</text>
+    <text x="100" y="305">到期日：2026-05-10</text>
+    <text x="100" y="345">负责人：张三</text>
+
+    <text x="100" y="405" font-size="16" fill="#6b7280">说明：这类图片 OCR 更容易抽到“标签+值”，演示时可以作为稳定样例。</text>
+  </g>
+</svg>

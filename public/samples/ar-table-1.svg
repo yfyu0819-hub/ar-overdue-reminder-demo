@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <text x="40" y="55" font-size="28" font-family="Arial, 'Microsoft YaHei', sans-serif" fill="#111827">应收台账截图（示例 1）</text>
+
+  <g transform="translate(40,90)" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="20" fill="#111827">
+    <rect x="0" y="0" width="1120" height="220" fill="#ffffff" stroke="#111827" stroke-width="2"/>
+
+    <!-- header row -->
+    <line x1="0" y1="50" x2="1120" y2="50" stroke="#111827" stroke-width="2"/>
+    <text x="16" y="34">客户</text>
+    <text x="220" y="34">项目</text>
+    <text x="430" y="34">应收金额</text>
+    <text x="610" y="34">已收金额</text>
+    <text x="780" y="34">到期日</text>
+    <text x="950" y="34">负责人</text>
+
+    <!-- columns -->
+    <line x1="200" y1="0" x2="200" y2="220" stroke="#111827" stroke-width="2"/>
+    <line x1="410" y1="0" x2="410" y2="220" stroke="#111827" stroke-width="2"/>
+    <line x1="590" y1="0" x2="590" y2="220" stroke="#111827" stroke-width="2"/>
+    <line x1="760" y1="0" x2="760" y2="220" stroke="#111827" stroke-width="2"/>
+    <line x1="930" y1="0" x2="930" y2="220" stroke="#111827" stroke-width="2"/>
+
+    <!-- row 1 -->
+    <line x1="0" y1="110" x2="1120" y2="110" stroke="#111827" stroke-width="1"/>
+    <text x="16" y="88">ABC工程有限公司</text>
+    <text x="220" y="88">沙特电站项目</text>
+    <text x="430" y="88">120000</text>
+    <text x="610" y="88">20000</text>
+    <text x="780" y="88">2026-05-22</text>
+    <text x="950" y="88">Lily</text>
+
+    <!-- row 2 -->
+    <line x1="0" y1="170" x2="1120" y2="170" stroke="#111827" stroke-width="1"/>
+    <text x="16" y="148">Dubai Container FZCO</text>
+    <text x="220" y="148">UAE仓储项目</text>
+    <text x="430" y="148">80000</text>
+    <text x="610" y="148">80000</text>
+    <text x="780" y="148">2026-05-05</text>
+    <text x="950" y="148">Alex</text>
+
+    <!-- row 3 -->
+    <text x="16" y="208">某政府合作单位</text>
+    <text x="220" y="208">港口改造</text>
+    <text x="430" y="208">250000</text>
+    <text x="610" y="208">50000</text>
+    <text x="780" y="208">2026-05-10</text>
+    <text x="950" y="208">张三</text>
+  </g>
+</svg>
