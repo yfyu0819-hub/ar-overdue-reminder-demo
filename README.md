@@ -27,10 +27,22 @@
 ## 演示流程（建议 2–3 分钟）
 
 1. 进入“台账”页：新增 2–3 条账款（包含一个已逾期、一个将到期）。
-2. 进入“OCR导入”页：用示例图片（`/samples/*.svg`）做一次 OCR，得到草稿 → 手工确认 → 入库。
+2. 进入“OCR导入”页：上传一张表格截图/图片做一次 OCR，得到草稿 → 手工确认 → 入库。
 3. 进入“提醒&日志”页：点击“生成提醒（今天）”→ 对其中 1 条点击“模拟发送”。
 4. 再次点击同一条“模拟发送”：观察日志出现 `skipped-duplicate`，证明去重生效。
 5. 进入“备份恢复”页：导出备份（JSON）→ 清空数据 → 导入恢复。
+
+## 线上试用（GitHub Pages）
+
+部署成功后，客户可直接打开（无需登录）：
+
+- https://yfyu0819-hub.github.io/ar-overdue-reminder-demo/
+
+启用方式（仓库管理员操作一次即可）：
+
+1. 进入 GitHub 仓库 → Settings → Pages
+2. Build and deployment 选择 “GitHub Actions”
+3. 等待 Actions 里 “Deploy to GitHub Pages” 工作流跑完
 
 ## 说明（后续对接飞书/企微）
 
